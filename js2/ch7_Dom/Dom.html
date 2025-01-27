@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Inner HTML</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="hihihi" id="second" data-game="fire" data-player="pushpa">
+    Hello junagadh
+  </div>
+  <section class="hey" id="first">
+    hello junagadh
+  </section>
+
+  <div class="third" id="third">
+    <button id="btn" onclick="alert('i am btn')" onmouseout="alert('mouceout')">button</button>
+  </div>
+
+  
+ <script src="/ch8_Attributes/note.js"></script>
+ <script>
+  let c = document.getElementById('first')[0];
+c.insertAdjacentElement('beforebegin', '<p>heyyy </p>');
+ </script>
+</body>
+
+</html>
