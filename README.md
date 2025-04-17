@@ -1,3 +1,2 @@
 "# JavaScript" 
-"# Java-" 
-"# Java-" 
+all pracice base on javascript
